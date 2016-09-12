@@ -1,37 +1,10 @@
-# api-ai-facebook
-Facebook bot sources for Api.ai integration
+#How to Send Rich Formatted Text to Facebook Bot via Api.ai Webhook
 
-## Deploy with Heroku
-Follow [these instructions](https://docs.api.ai/docs/facebook-integration#hosting-fb-messenger-bot-with-heroku).
-Then,  
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+This example shows how you can use Api.ai webhook to send rich formatted text to your Facebook bot.
 
-## Deploy with Docker
+<a href="https://heroku.com/deploy" target="_blank"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 
-```bash
-docker run -it --name fb_bot \
-           -p <your_desired_port>:5000 \
-           -e APIAI_ACCESS_TOKEN="API.AI client access token" \
-           -e FB_PAGE_ACCESS_TOKEN="Facebook Page Access Token" \
-           -e FB_VERIFY_TOKEN="Facebook Verify Token" \
-           -e APIAI_LANG="en" \
-           xvir/api-ai-facebook
-```
+**Related documentation:**
 
-## Note about languages:
-When you deploy the app manually to Heroku, the APIAI_LANG not filled with a value.
-You need to provide language parameter according to your agent settings in the form of two-letters code.
- 
- * "en"
- * "ru"
- * "de"
- * "pt"
- * "pt-BR"
- * "es"
- * "fr"
- * "it"
- * "ja"
- * "ko"
- * "zh-CN"
- * "zh-HK"
- * "zh-TW"
+- https://docs.api.ai/docs/facebook-integration
+- https://docs.api.ai/docs/webhook

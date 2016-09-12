@@ -1,7 +1,7 @@
 {
   "name": "api-ai-facebook",
   "version": "1.0.0",
-  "description": "API.AI Facebook Bot",
+  "description": "API.AI Facebook Rich Formatted Text Webhook",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
